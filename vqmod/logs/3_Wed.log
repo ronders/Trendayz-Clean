@@ -1,0 +1,15 @@
+---------- Date: 2015-01-28 03:09:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /Trendays/index.php
+MOD DETAILS:
+   modFile   : /Users/Ronders/Projects/Trendays/vqmod/xml/fnt_fancy_product_designer.xml
+   id        : Fancy Product Designer for Opencart
+   version   : 2.0.1
+   vqmver    : 2.5.0
+   author    : FinalThemes.com
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <div class="links"><a href="<?php echo $home; ?>"><?php echo $text_home; ?></a><a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a><a href="<?php echo $shopping_cart; ?>"><?php echo $text_shopping_cart; ?></a><a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a></div>
+
+----------------------------------------------------------------------
+
+

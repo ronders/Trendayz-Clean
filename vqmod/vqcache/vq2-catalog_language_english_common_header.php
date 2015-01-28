@@ -11,4 +11,7 @@ $_['text_welcome']        = 'Welcome visitor you can <a href="%s">login</a> or <
 $_['text_logged']         = 'You are logged in as <a href="%s">%s</a> <b>(</b> <a href="%s">Logout</a> <b>)</b>';
 $_['text_account']        = 'My Account';
 $_['text_checkout']       = 'Checkout';
+$_['text_custom_design']            = 'Fancy Product Designer';
+			$_['text_customer_design']            = 'Customer Design Ideas';
+			
 ?>

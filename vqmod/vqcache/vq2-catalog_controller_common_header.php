@@ -56,6 +56,13 @@ class ControllerCommonHeader extends Controller {
 		$this->data['logged'] = $this->customer->isLogged();
 		$this->data['account'] = $this->url->link('account/account', '', 'SSL');
 		$this->data['shopping_cart'] = $this->url->link('checkout/cart');
+
+				$this->data['custom_design'] = $this->url->link('product/fnt_category_product_design');
+				$this->data['text_custom_design'] = $this->language->get('text_custom_design');
+				$this->data['customer_design'] = $this->url->link('product/fnt_customer_design');
+				$this->data['text_customer_design'] = $this->language->get('text_customer_design');
+				$this->data['load_all_design'] = ($this->config->get('config_view_all_design')) ? 1 : 0;
+			
 		$this->data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 
 		// Daniel's robot detector
