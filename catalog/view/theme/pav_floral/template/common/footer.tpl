@@ -186,7 +186,7 @@ $class = $helper->calculateSpans( $ospans, $cols );
 	<?php } else { ?>
 		<?php echo $powered; ?>. 
 	<?php } ?>
-	Design By <a href="http://www.pavothemes.com" title="pavethemes - opencart themes clubs">PavoThemes</a></div>
+	Design By <a href="http://www.port80corp.com" title="port80corp - Chicago web design + SEO">Port80 Corp.</a></div>
 	<div class="paypal pull-right"><img src="image/data/paypal.png" alt=""><a href="#"></a></div></div></div></div>
 </section>
 
