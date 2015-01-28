@@ -1,0 +1,2 @@
+2015-01-28 1:01:38 - PHP Notice:  Use of undefined constant pav_floral - assumed 'pav_floral' in /Users/Ronders/Projects/Trendays/admin/model/sample/pav_floral/sample.php on line 117
+2015-01-28 1:03:53 - PHP Notice:  Use of undefined constant pav_floral - assumed 'pav_floral' in /Users/Ronders/Projects/Trendays/admin/model/sample/pav_floral/sample.php on line 117
