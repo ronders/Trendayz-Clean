@@ -121,6 +121,19 @@ class ControllerCommonHeader extends Controller {
 				$this->data['text_pavblog_comment'] = $this->language->get('text_pavblog_comment');
 				$this->data['text_pavblog_latest'] = $this->language->get('text_pavblog_latest');
 		$this->data['text_zone'] = $this->language->get('text_zone');
+$this->data['text_fancy_product_designer'] = $this->language->get('text_fancy_product_designer');
+		$this->data['text_fancy_products'] = $this->language->get('text_fancy_products');
+		$this->data['text_products_design'] = $this->language->get('text_products_design');
+		$this->data['text_categories_design'] = $this->language->get('text_categories_design');
+		$this->data['text_fancy_cliparts'] = $this->language->get('text_fancy_cliparts');
+        $this->data['text_cliparts'] = $this->language->get('text_cliparts');
+        $this->data['text_clipart_categories'] = $this->language->get('text_clipart_categories');
+        $this->data['text_fancy_design_ideas'] = $this->language->get('text_fancy_design_ideas');
+        $this->data['text_design_ideas'] = $this->language->get('text_design_ideas');
+        $this->data['text_customer_design_ideas'] = $this->language->get('text_customer_design_ideas');
+        $this->data['text_customer_design_ideas_approved'] = $this->language->get('text_customer_design_ideas_approved');
+        $this->data['text_fancy_fonts'] = $this->language->get('text_fancy_fonts');
+		$this->data['text_fancy_settings'] = $this->language->get('text_fancy_settings');
 		$this->data['text_openbay_extension'] = $this->language->get('text_openbay_extension');
 		$this->data['text_openbay_dashboard'] = $this->language->get('text_openbay_dashboard');
 		$this->data['text_openbay_orders'] = $this->language->get('text_openbay_orders');
@@ -219,6 +232,15 @@ class ControllerCommonHeader extends Controller {
 				$this->data['pavblogs_general'] = $this->url->link('module/pavblog/modules', 'token=' . $this->session->data['token'], 'SSL');
 				
 			$this->data['zone'] = $this->url->link('localisation/zone', 'token=' . $this->session->data['token'], 'SSL');
+ $this->data['fancy_fonts'] = $this->url->link('catalog/fnt_fonts', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['cliparts'] = $this->url->link('catalog/fnt_clipart', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['clipart_categories'] = $this->url->link('catalog/fnt_category_clipart', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['design_ideas'] = $this->url->link('catalog/fnt_product_ideas', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['customer_design_ideas'] = $this->url->link('catalog/fnt_product_customer_ideas', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['customer_design_ideas_approved'] = $this->url->link('catalog/fnt_product_customer_ideas_accept', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['fancy_products'] = $this->url->link('catalog/fnt_product_design', 'token=' . $this->session->data['token'], 'SSL');
+            $this->data['fancy_categories'] = $this->url->link('catalog/fnt_category', 'token=' . $this->session->data['token'], 'SSL');
+			$this->data['fancy_settings'] = $this->url->link('catalog/fnt_setting', 'token=' . $this->session->data['token'], 'SSL');
 
 			$this->data['openbay_show_menu'] = $this->config->get('openbaymanager_show_menu');
 

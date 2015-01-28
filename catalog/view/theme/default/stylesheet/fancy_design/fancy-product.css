@@ -1,0 +1,139 @@
+.clothing-designer{
+	position:relative;
+}
+.fpd-sidebar{
+	position:absolute;
+}
+.fpd-product-container{
+	position:absolute;
+}
+
+.product-design-info {
+    clear: both;
+    float: right;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.product-design-info .left {
+    float: left;
+    width: 44%;
+}
+.product-design-info .right {
+    float: left;
+    width: 30%;
+}
+.product-design-info .right .form-group {
+    float: left;
+}
+.product-design-info .right .qty {float:left;margin-right:10px}
+.product-design-info .right .price {
+    float: left;
+    margin: 5px 15px;
+    text-align: left;
+	width:100%;
+}
+.product-design-info .right .form-control {
+    float: left;
+    margin: 0 10px;
+}
+.product-design-info .right .option {
+    margin-bottom: 8px;
+}
+.product-design-info .right .options {
+    float: left;
+    margin-top: 20px;
+	width:100%;
+}
+.box-share {
+    float: left;
+    text-align: center;
+    width: 70%;
+}
+.box-share img {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.fpd-edit-elements h3 {
+    margin-bottom: 10px !important;
+}
+.fpd-edit-elements .fpd-toolbar {
+    margin-top: 5px;
+}
+.fpd-content > div h5 {
+    margin-right: 5px;
+}
+.fpd-color-picker > .sp-replacer {
+    width: 78%;
+}
+.fpd-toolbar > div {
+    margin-bottom: 10px;
+}
+.fpd-toolbar .fpd-text-format-section h5 {
+    margin-top: 7px;
+}
+.fpd-toolbar .fpd-curve-toggle-item > div {
+    float: left;
+    width: 100%;
+}
+.fpd-products h3{
+	margin-bottom: 10px;
+	padding: 20px 0 0 20px;
+}
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.popup-box {
+	display: none;
+	height: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: fixed;
+	top: 10px;
+	z-index: 1002;
+	width:inherit;
+	text-align:center;
+}
+.popup-content{
+	background-color: white;
+	border: 5px solid #999;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	z-index: 1002;
+	text-align:center;
+	margin: 0 auto;
+	height:95%;
+}
+.popup-content > div:first-child{
+	height:70px;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+.popup-content > div p{
+	font-weight:bold;
+	margin: 10px 0 0 0;
+}
+#add-to-cart-popup{opacity:0.5;cursor:not-allowed;}
+.button_active{opacity:1 !important;cursor:pointer !important;}
+@media only screen
+and (max-width : 767px)
+{
+	.fpd-product-container .fpd-menu-bar > div span{
+		display:none;
+	}
+}

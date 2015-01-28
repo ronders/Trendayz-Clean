@@ -31,6 +31,12 @@
 // Confirm Actions (delete, uninstall)
 //-----------------------------------------
 $(document).ready(function(){
+// tooltips on hover
+				$('[data-toggle=\'tooltip\']').tooltip({container: 'body', html: true});
+				// Makes tooltips work on ajax generated content
+				$(document).ajaxStop(function() {
+					$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
+				});
     // Confirm Delete
     $('#form').submit(function(){
         if ($(this).attr('action').indexOf('delete',1) != -1) {
@@ -67,6 +73,31 @@ $(document).ready(function(){
         <ul>
           <li><a href="<?php echo $category; ?>"><?php echo $text_category; ?></a></li>
           <li><a href="<?php echo $product; ?>"><?php echo $text_product; ?></a></li>
+<li><a class="parent"><?php echo $text_fancy_product_designer; ?></a>
+              <ul>             
+				  <li><a class="parent"><?php echo $text_fancy_products; ?></a>
+                      <ul>
+                          <li><a href="<?php echo $fancy_products; ?>"><?php echo $text_products_design; ?></a></li>
+                          <li><a href="<?php echo $fancy_categories; ?>"><?php echo $text_categories_design; ?></a></li>
+                      </ul>
+                  </li>
+                  <li><a class="parent"><?php echo $text_fancy_cliparts; ?></a>
+                      <ul>
+                          <li><a href="<?php echo $cliparts; ?>"><?php echo $text_cliparts; ?></a></li>
+                          <li><a href="<?php echo $clipart_categories; ?>"><?php echo $text_clipart_categories; ?></a></li>
+                      </ul>
+                  </li>
+				  <li><a class="parent"><?php echo $text_fancy_design_ideas; ?></a>
+                      <ul>
+                          <li><a href="<?php echo $design_ideas; ?>"><?php echo $text_design_ideas; ?></a></li>
+                          <li><a href="<?php echo $customer_design_ideas; ?>"><?php echo $text_customer_design_ideas; ?></a></li>
+                          <li><a href="<?php echo $customer_design_ideas_approved; ?>"><?php echo $text_customer_design_ideas_approved; ?></a></li>
+                      </ul>
+                  </li>
+                  <li><a href="<?php echo $fancy_fonts; ?>"><?php echo $text_fancy_fonts; ?></a></li>                  
+				  <li><a href="<?php echo $fancy_settings; ?>"><?php echo $text_fancy_settings; ?></a></li>
+              </ul>
+          </li>
           <li><a href="<?php echo $filter; ?>"><?php echo $text_filter; ?></a></li>
           <li><a href="<?php echo $profile; ?>"><?php echo $text_profile; ?></a></li>
           <li><a class="parent"><?php echo $text_attribute; ?></a>
