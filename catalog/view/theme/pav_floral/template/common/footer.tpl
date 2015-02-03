@@ -180,12 +180,14 @@ $class = $helper->calculateSpans( $ospans, $cols );
 	OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 	Please donate via PayPal to donate@opencart.com
 	//-->
+	
 	<div id="powered"><div class="container"><div class="powered"><div class="copyright pull-left">
 	<?php if( isset($themeConfig['enable_custom_copyright']) && $themeConfig['enable_custom_copyright'] ) { ?>
 		<?php echo $themeConfig['copyright'];?>
 	<?php } else { ?>
 		<?php echo $powered; ?>. 
 	<?php } ?>
+
 	Design By <a href="http://www.port80corp.com" title="port80corp - Chicago web design + SEO">Port80 Corp.</a></div>
 	<div class="paypal pull-right"><img src="image/data/paypal.png" alt=""><a href="#"></a></div></div></div></div>
 </section>
