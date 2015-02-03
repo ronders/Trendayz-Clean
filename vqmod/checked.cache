@@ -245,5 +245,3 @@ admin/model/catalog/download.php
 admin/view/template/catalog/product_form.tpl
 admin/controller/catalog/option.php
 admin/language/english/catalog/option.php
-catalog/model/catalog/manufacturer.php
-catalog/model/catalog/review.php
